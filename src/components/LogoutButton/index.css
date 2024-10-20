@@ -1,0 +1,23 @@
+/* index.css */
+
+/* Styling for the logout button */
+button {
+  background-color: #ff5722; /* Orange color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Change background color when the button is hovered */
+button:hover {
+  background-color: #e64a19; /* Darker orange */
+}
+
+/* Add focus outline for accessibility */
+button:focus {
+  outline: 2px solid #ffccbc; /* Light outline when focused */
+}
